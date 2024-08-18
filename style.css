@@ -265,6 +265,13 @@ body {
   background-color: red;
   border: none;
 }
+.directions span{
+  background-color: white;
+  color: red;
+  border-radius: 50%;
+  padding: 8px;
+  margin-left: 10px;
+}
 
 
 #hero-section {
@@ -623,6 +630,122 @@ hr {
   padding-bottom: 1rem;
 }
 
+
+
+.hero-section-feedback{
+  background-image: url(https://static.tossdown.com/site/4beaa66e-dda0-460b-84e4-640fa692e00e.webp) ;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: brightness(0.5);
+}
+.feedback-text{
+  text-align: center;
+  color: white;
+}
+.feedback-text h2{
+  font-size: 2.6rem;
+}
+.feedback-text h1{
+  font-size: 100px;
+  font-weight: 700 !important; 
+  text-transform: capitalize;
+
+}
+.feedback-text h3{
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+.feedback-section{
+  text-align: center;
+  padding: 2rem 0rem;
+  /* border-right: 1px dashed; */
+  width: 50%;
+}
+.submit-section{
+ max-width: 100%;
+ display: flex;
+
+}
+
+
+.submit-left{
+  border-right: 1px dashed;
+  max-width: 50%;
+  padding-right: 1rem;
+  flex: 1;
+}
+
+.row-feedback{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-feedback{
+  margin-right: 1rem;
+  
+}
+.col-feedback p{
+  margin: 1rem 0rem;
+}
+.stars{
+  font-size: 0.9rem;
+}
+.fa-star{
+  border: 1px solid white;
+    border-radius: 50px;
+    padding: 0.5rem;
+    color: white;
+}
+.fa-star:hover{
+  background-color: yellow;
+}
+.form-content{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0rem;
+  gap: 0.8rem;
+}
+
+.inp-form{
+  padding: 1rem 0.5rem ;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+  width: 100%;
+}
+.text-name{
+  display: flex;
+  gap: 1rem;
+}
+.col-a{
+  display: flex;
+  gap: 1rem;
+}
+.col-a-a small{
+  color: white;
+}
+input[type='radio']{
+  margin-right: 0.5rem;
+}
+label{
+  margin-right: 1rem;
+  cursor: pointer;
+}
+input[type="checkbox"]{
+  cursor: pointer;
+}
+.submit-right{
+  flex: 1;
+  padding-left: 1rem;
+  text-align: justify;
+}
+.submit-right h3{
+  text-align: center;
+  margin-bottom: 1rem;
+}
 
 
 @media screen and (max-width: 990px) {
